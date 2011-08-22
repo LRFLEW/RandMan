@@ -1,0 +1,20 @@
+name: RandMan
+main: com.LRFLEW.bukkit.randman.RandMan
+version: 1.0.2
+website: http://lrflew.ismywebsite.com/
+author: LRFLEW
+description: >
+             This plugin randomly places players based on WorldBorder bounds
+depend: [WorldBorder]
+softdepend: [Towny]
+commands:
+  RandMan:
+    aliases: [rand, random]
+    permission: RandMan
+    description: Teleports player to a random position
+    usage: |
+           /<command>
+permissions:
+  RandMan:
+    description: allows player to randomly teleport
+    default: true
